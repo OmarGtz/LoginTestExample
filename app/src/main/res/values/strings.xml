@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">LoginTestExample</string>
+
+    <!--Start Labels Login-->
+    <string name="txt_name_and_phone">EMAIL O TELÉFONO</string>
+    <string name="txt_password">CONTRASEÑA</string>
+    <string name="hint_name_and_phone">Escribe tu email o teléfono</string>
+    <string name="txt_hint_password">Escribe tu contraseña</string>
+
+
+    <string name="txt_login">INICIAR SESIÓN</string>
+    <string name="login_text_email">\@anfitriones.urbvan.com</string>
+
+    <string name="empty_email">Escribe tu email</string>
+    <string name="empty_password">Escribe tu contraseña</string>
+    <string name="invalid_email">Escribe un email valido</string>
+    <string name="auth_error">Contraseña o correo incorrectos. Intenta de nuevo</string>
+    <string name="unknown_error">Error desconocido</string>
+
+    <string name="go_to_home">Navegar al home</string>
+
 </resources>

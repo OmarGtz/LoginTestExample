@@ -4,31 +4,31 @@ import com.google.gson.annotations.SerializedName
 
 open class DriverDTO(
     @SerializedName("id")
-    var id: String? = null,
+    var id: String?,
     @SerializedName("email")
-    var email: String? = null,
+    var email: String?,
     @SerializedName("last_name")
-    var last_name: String? = null,
+    var last_name: String?,
     @SerializedName("username")
-    var username: String? = null,
+    var username: String?,
     @SerializedName("birthday")
-    var birthday: String? = null,
+    var birthday: String?,
     @SerializedName("gender")
-    var gender: String? = null,
+    var gender: String?,
     @SerializedName("picture")
-    var picture: String? = null,
+    var picture: String?,
     @SerializedName("first_name")
-    var first_name: String? = null,
+    var first_name: String?,
     @SerializedName("driver")
-    var driver: DriverInfoDTO? = null,
+    var driver: DriverInfoDTO?,
     @SerializedName("token")
-    var token: String? = null,
+    var token: String?,
     @SerializedName("score")
-    var score: String? = null,
+    var score: String?,
     @SerializedName("trips")
-    var trips: String? = null,
+    var trips: String?,
     @SerializedName("seniority")
-    var seniority: String? = null
+    var seniority: String?
 )
 
 class DriverInfoDTO(
